@@ -19,7 +19,7 @@
 
   <!-- ! Skeleton-based Space Decomposition ! -->
   <param name="rosa_main/estimation_num" value="1000" type="int"/>
-  <param name="rosa_main/pcd" value="$(find hierarchical_coverage_planner)/data/turbine_test.pcd" type="string"/>
+  <param name="rosa_main/pcd" value="$(find hierarchical_coverage_planner)/data/windturbine_blades.pcd" type="string"/>
   <param name="rosa_main/radius" value="0.1" type="double"/>
   <param name="rosa_main/th_mah" value="0.01" type="double"/>
   <param name="rosa_main/delta" value="0.01" type="double"/>
@@ -63,7 +63,7 @@
 
   <!-- ! Hierarchical Coverage Planner ! -->
   <!-- <param name="hcplanner/mesh" value="$(find hierarchical_coverage_planner)/data/mesh/christ.dae" type="string"/> -->
-  <param name="hcplanner/fullcloud" value="$(find hierarchical_coverage_planner)/data/turbine_test.pcd" type="string"/>
+  <param name="hcplanner/fullcloud" value="$(find hierarchical_coverage_planner)/data/windturbine.pcd" type="string"/>
   <param name="hcplanner/model_downsample_size" value="0.8" type="double"/>
   <param name="hcplanner/safe_inner_dist_coeff" value="1.1" type="double"/>
   <param name="hcplanner/cx" value="$(arg cx)" type="double"/>
@@ -122,11 +122,11 @@
   <param name="hctraj/rho_p" value="800.0" type="double"/>
   <param name="hctraj/rho_z" value="2000.0" type="double"/>
   <param name="hctraj/rho_e" value="500.0" type="double"/>
-  <param name="hctraj/TrajFile" value="$(find hierarchical_coverage_planner)/solution/Traj/TrajInfoChrist.txt" type="string"/>
-  <param name="hctraj/CloudFile" value="$(find hierarchical_coverage_planner)/solution/Traj/CloudInfoChrist.txt" type="string"/>
-  <param name="hctraj/PosFile" value="$(find hierarchical_coverage_planner)/solution/Traj/PositionCoeffChrist.txt" type="string"/>
-  <param name="hctraj/PitchFile" value="$(find hierarchical_coverage_planner)/solution/Traj/PitchCoeffChrist.txt" type="string"/>
-  <param name="hctraj/YawFile" value="$(find hierarchical_coverage_planner)/solution/Traj/YawCoeffChrist.txt" type="string"/>
+  <param name="hctraj/TrajFile" value="$(find hierarchical_coverage_planner)/solution/Traj/TrajInfoTurbine.txt" type="string"/>
+  <param name="hctraj/CloudFile" value="$(find hierarchical_coverage_planner)/solution/Traj/CloudInfoTurbine.txt" type="string"/>
+  <param name="hctraj/PosFile" value="$(find hierarchical_coverage_planner)/solution/Traj/PositionCoeffTurbine.txt" type="string"/>
+  <param name="hctraj/PitchFile" value="$(find hierarchical_coverage_planner)/solution/Traj/PitchCoeffTurbine.txt" type="string"/>
+  <param name="hctraj/YawFile" value="$(find hierarchical_coverage_planner)/solution/Traj/YawCoeffTurbine.txt" type="string"/>
 
   <!-- ! FC-Planner ! -->
   <param name="hcopp/TimeStamp" value="0.3" type="double"/>

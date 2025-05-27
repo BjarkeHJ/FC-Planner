@@ -19,7 +19,7 @@
 
   <!-- ! Skeleton-based Space Decomposition ! -->
   <param name="rosa_main/estimation_num" value="1000" type="int"/>
-  <param name="rosa_main/pcd" value="$(find rosa)/data/turbine_test.pcd" type="string"/>
+  <param name="rosa_main/pcd" value="$(find hierarchical_coverage_planner)/data/turbine_test.pcd" type="string"/>
   <param name="rosa_main/radius" value="0.1" type="double"/>
   <param name="rosa_main/th_mah" value="0.01" type="double"/>
   <param name="rosa_main/delta" value="0.01" type="double"/>

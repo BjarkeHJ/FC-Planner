@@ -1,5 +1,5 @@
 <launch>
-<!-- SCENE : Christ the Redeemer -->
+<!-- SCENE : Windturbine -->
 <arg name="fov_h" value="55.0"/>
 <arg name="fov_w" value="75.0"/>
 <arg name="cx" value="320.0"/>

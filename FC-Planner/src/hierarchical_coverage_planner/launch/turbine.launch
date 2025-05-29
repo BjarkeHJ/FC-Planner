@@ -6,7 +6,7 @@
 <arg name="cy" value="240.0"/>
 <arg name="fx" value="417.0467"/>
 <arg name="fy" value="461.0951"/>
-<arg name="max_dist" value="12.0"/>
+<arg name="max_dist" value="15.0"/>
 <arg name="resolution_" value="0.4"/>
 <arg name="max_vel" value="2.0"/>
 <arg name="max_acc" value="1.0"/>
@@ -89,7 +89,7 @@
   <param name="viewpoint_manager/GroundPos" value="-7.4" type="double"/>
   <!-- <param name="viewpoint_manager/safeHeight" value="1.5" type="double"/> -->
   <param name="viewpoint_manager/safeHeight" value="60.0" type="double"/>
-  <param name="viewpoint_manager/safe_radius" value="10.0" type="double"/>
+  <param name="viewpoint_manager/safe_radius" value="5.0" type="double"/>
 
   <!-- attitude_type : 1) yaw 2) all -> (pitch, yaw) -->
   <!-- <param name="viewpoint_manager/attitude_type" value="all" type="string"/>  -->

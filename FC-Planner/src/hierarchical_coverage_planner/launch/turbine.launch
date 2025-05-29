@@ -74,7 +74,7 @@
   <param name="hcplanner/tripod_head" value="false" type="bool"/>
   <param name="hcplanner/sample_step4normal" value="0.5" type="double"/>
   <!-- <param name="hcplanner/current_x_" value="10.0" type="double"/> -->
-  <param name="hcplanner/current_x_" value="-20.0" type="double"/>
+  <param name="hcplanner/current_x_" value="-50.0" type="double"/>
   <param name="hcplanner/current_y_" value="0.0" type="double"/>
   <!-- <param name="hcplanner/current_z_" value="0.0" type="double"/> -->
   <param name="hcplanner/current_z_" value="120.0" type="double"/>
@@ -87,7 +87,7 @@
   <param name="viewpoint_manager/fov_w" value="$(arg fov_w)" type="double"/>
   <param name="viewpoint_manager/pitch_upper" value="70.0" type="double"/>
   <param name="viewpoint_manager/pitch_lower" value="-85.0" type="double"/>
-  <param name="viewpoint_manager/zGround" value="false" type="bool"/>
+  <param name="viewpoint_manager/zGround" value="true" type="bool"/>
   <!-- <param name="viewpoint_manager/GroundPos" value="-7.4" type="double"/> -->
   <param name="viewpoint_manager/GroundPos" value="-0.1" type="double"/>
   <!-- <param name="viewpoint_manager/safeHeight" value="1.5" type="double"/> -->

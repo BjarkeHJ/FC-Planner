@@ -38,7 +38,8 @@
   <!-- ! Skeleton-based Space Decomposition ! -->
   <param name="rosa_main/estimation_num" value="1000" type="int"/>
   <!-- <param name="rosa_main/pcd" value="$(find hierarchical_coverage_planner)/data/windturbine_blades.pcd" type="string"/> -->
-  <param name="rosa_main/pcd" value="$(find hierarchical_coverage_planner)/data/windturbine.pcd" type="string"/>
+  <!-- <param name="rosa_main/pcd" value="$(find hierarchical_coverage_planner)/data/windturbine.pcd" type="string"/> -->
+  <param name="rosa_main/pcd" value="$(find hierarchical_coverage_planner)/data/windturbine_cropped.pcd" type="string"/>
   <param name="rosa_main/radius" value="0.1" type="double"/>
   <param name="rosa_main/th_mah" value="0.01" type="double"/>
   <param name="rosa_main/delta" value="0.01" type="double"/>
@@ -84,7 +85,7 @@
   <!-- ! Hierarchical Coverage Planner ! -->
   <!-- <param name="hcplanner/mesh" value="$(find hierarchical_coverage_planner)/data/mesh/christ.dae" type="string"/> -->
   <!-- <param name="hcplanner/fullcloud" value="$(find hierarchical_coverage_planner)/data/windturbine.pcd" type="string"/> -->
-  <param name="hcplanner/fullcloud" value="$(find hierarchical_coverage_planner)/data/windturbine_cropped.pcd" type="string"/>
+  <param name="hcplanner/fullcloud" value="$(find hierarchical_coverage_planner)/data/windturbine.pcd" type="string"/>
   <param name="hcplanner/model_downsample_size" value="0.8" type="double"/>
   <param name="hcplanner/safe_inner_dist_coeff" value="1.1" type="double"/>
   <param name="hcplanner/cx" value="$(arg cx)" type="double"/>
